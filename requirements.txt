@@ -1,0 +1,4 @@
+torch>=2.14,<3
+transformers>=5.17,<6
+peft>=0.21,<1
+gradio>=6.28,<7
