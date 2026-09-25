@@ -1,7 +1,6 @@
 """Fine-tune a LoRA (PEFT) adapter on ParsBERT for IF/THEN span tagging (token classification).
 
-Unlike train_classifier.py (which classifies a whole sentence as negative/marked/unmarked), this
-predicts a BIO tag per token -- which words are the condition (IF) clause and which are the
+This predicts a BIO tag per token -- which words are the condition (IF) clause and which are the
 consequence (THEN) clause -- directly from the `tokens`/`tags` fields already in the dataset:
 
     O   B-IF  I-IF  B-THEN  I-THEN
@@ -22,9 +21,6 @@ Reports two kinds of metrics on the test split:
     _level.csv): via seqeval, a predicted IF/THEN span only counts as correct if its full token
     range exactly matches the gold span (right type *and* right boundaries) -- this is "how often
     are the spans fully correct", plus a whole-sentence exact-tag-sequence-match rate.
-
-Requirements (on top of what generate_conditionals.ipynb already needs):
-    pip install torch transformers peft datasets scikit-learn pandas matplotlib seqeval
 """
 
 import argparse
@@ -33,7 +29,7 @@ from pathlib import Path
 
 import matplotlib
 
-matplotlib.use("Agg")  # headless: this is a CLI training script, not a notebook
+matplotlib.use("Agg")  # headless
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
