@@ -106,3 +106,4 @@ Use `--adapter-dir` to point at a different checkpoint, and `--share` to create 
 - new training run with held-out topics
 - look even harder at attention scores to explain decisions
 - compare against LLM-annotated human-written corpora as training data (for more representative language) on hand-annotated eval dataset
+- calibrated confidence scores
