@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+          IF      0.971     0.990     0.980       200
+        THEN      0.941     0.950     0.945       200
+
+   micro avg      0.956     0.970     0.963       400
+   macro avg      0.956     0.970     0.963       400
+weighted avg      0.956     0.970     0.963       400
+
+whole-sentence exact match: 0.960

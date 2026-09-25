@@ -1,0 +1,16 @@
+{
+  "id2label": {
+    "0": "O",
+    "1": "B-IF",
+    "2": "I-IF",
+    "3": "B-THEN",
+    "4": "I-THEN"
+  },
+  "label2id": {
+    "O": 0,
+    "B-IF": 1,
+    "I-IF": 2,
+    "B-THEN": 3,
+    "I-THEN": 4
+  }
+}

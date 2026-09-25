@@ -1,0 +1,12 @@
+{
+  "id2label": {
+    "0": "negative",
+    "1": "marked",
+    "2": "unmarked"
+  },
+  "label2id": {
+    "negative": 0,
+    "marked": 1,
+    "unmarked": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "token_accuracy": 0.9961737134111345,
+  "entity_f1": 0.9627791563275433,
+  "entity_precision": 0.9556650246305419,
+  "entity_recall": 0.97,
+  "sentence_exact_match": 0.96,
+  "n_test_sentences": 400,
+  "n_test_tokens": 5227,
+  "tag_names": [
+    "O",
+    "B-IF",
+    "I-IF",
+    "B-THEN",
+    "I-THEN"
+  ]
+}

@@ -1,0 +1,4 @@
+.env
+__pycache__/
+# only final checkpoints are comitted
+checkpoint-*/
